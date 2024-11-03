@@ -32,9 +32,9 @@
 
 @layer base {
   * {
-    @apply border-border font-roboto;
+    @apply border-border ;
   }
   body {
-    @apply text-foreground;
+    @apply text-foreground font-roboto;
   }
 }

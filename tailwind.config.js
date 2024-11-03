@@ -3,7 +3,14 @@ export default {
   darkMode: ["class"],
   content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
+    
     extend: {
+      container: {
+        center: true,
+      },
+      screens: {
+        '2xl': '1320px',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -54,6 +61,8 @@ export default {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
         bebas: ["Bebas Neue", "sans-serif"],
+        poppins: ['Poppins', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif']
       },
     },
   },
