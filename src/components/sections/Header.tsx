@@ -14,7 +14,7 @@ export default function Header() {
         <div className="flex container py-28 h-full min-h-[calc(100vh-7rem)]">
           <div className="w-full lg:w-1/2 py-6 my-auto text-white relative">
             <h1 className="text-2xl md:text-4xl lg:text-9xl font-bebas">
-              <span className="whitespace-nowrap">Taste the authentic</span>{" "}
+              <span className="whitespace-nowrap">Taste the authentic</span>
               <br />
               Saudi cuisine
             </h1>
@@ -31,7 +31,11 @@ export default function Header() {
           /> */}
           <div className="w-full lg:w-1/2 bg-[url('public/images/cover.jpeg')] bg-cover bg-no-repeat">
             <div className="relative h-full">
-              <img src="public/images/starLogo.svg" alt="star" className="absolute -top-8 left-full -translate-x-1/2" />
+              <img
+                src="public/images/starLogo.svg"
+                alt="star"
+                className="absolute -top-8 left-full -translate-x-1/2"
+              />
               <div className="absolute bottom-0 left-full -translate-x-1/2 bg-primary p-2 h-28 w-28 rounded-full">
                 <div className="border-dashed border-2 border-accent rounded-full w-full h-full text-3xl font-bold font-bebas text-center flex items-center justify-center">
                   Today Offer
